@@ -1,0 +1,120 @@
+{
+    "camera":
+    {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0]
+    },
+    "models": [
+	{
+		"color": [0.8, 0.8, 1],
+		"objects": [
+			{
+				"type": 6,
+				"minor_radius": 1,
+				"major_radius": 5,
+				"position": [0, -4, 17]
+            }
+		]
+	},
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, -5, 0],
+                    "direction": [0, 1, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, 0, 30],
+                    "direction": [0, 0, 1]
+                }
+            ]
+        },
+        {
+            "color": [0, 1 ,0],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [10, 0, 0],
+                    "direction": [1, 0, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 0 , 0],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [-10, 0, 0],
+                    "direction": [1, 0, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, 5, 0],
+                    "direction": [0, 1, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "light": 4,
+            "objects": [
+                {
+                    "type": 4,
+                    "active": 1,
+                    "position": [0, 4.9, 15],
+                    "direction": [0, -1, 0],
+                    "radius": 3
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, 0, -30],
+                    "direction": [0, 0, 1]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "camera":
+    {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0]
+    },
+    "models": [
+		{
+            "color": [1, 1, 1],
+			"objects": [
+				{
+					"type": 0,
+					"position": [0, 0, 30],
+					"radius": 7
+				}
+			]
+		},
+        {
+            "color": [1, 1 ,1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [0, -10, 0],
+                    "direction": [0, 1, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [15, 0, 0],
+                    "direction": [1, 0, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1, 1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [-15, 0, 0],
+                    "direction": [1, 0, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [0, 10, 0],
+                    "direction": [0, 1, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [0, 0, 40],
+                    "direction": [0, 0, 1]
+                }
+            ]
+        },
+        {
+            "color": [1, 0, 0],
+            "light": 4,
+            "objects": [
+                {
+                    "type": 0,
+                    "position": [-6, 0, 20],
+                    "radius": 0.5
+                }
+            ]
+        },
+        {
+            "color": [0, 0, 1],
+            "light": 4,
+            "objects": [
+                {
+                    "type": 0,
+                    "position": [6, 0, 20],
+                    "radius": 0.5
+                }
+            ]
+        }
+    ]
+}

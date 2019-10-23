@@ -1,0 +1,130 @@
+{
+	"camera": {
+		"position": [0,0,0.1],
+		"rotation": [0,0,0]
+	},
+	"models": [
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,-250,0],
+					"direction": [0,1,0]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,0,1000],
+					"direction": [0,0,1]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,0,0],
+					"direction": [0,0,1]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,0,0],
+					"direction": [0,0,1]
+				}
+			]
+		},
+		{
+			"color": [0.4,0.3,0.8],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [250,0,0],
+					"direction": [1,0,0]
+				}
+			]
+		},
+		{
+			"color": [0.8,0.3,0.2],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [-250,0,0],
+					"direction": [1,0,0]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,250,0],
+					"direction": [0,1,0]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 1,
+			"reflective": 1,
+			"refractive_index": 1,
+			"light":2,
+			"position": [0, 0, 500],
+			"objects": [
+				{
+					"type": 4,
+					"active": 1,
+					"position": [0, 0, -1],
+					"direction": [0, 0, -1],
+					"radius": 1
+				},
+				{
+					"type": 4,
+					"active": 1,
+					"position": [0, 0, 0],
+					"direction": [0, 0, -1],
+					"radius": 2
+				}
+			]
+		}
+	]
+}

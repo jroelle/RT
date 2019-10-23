@@ -1,0 +1,157 @@
+{
+	"camera": {
+		"position": [0,0,0.1],
+		"rotation": [0,0,0]
+	},
+	"models": [
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,-25,0],
+					"direction": [0,1,0],
+					"texture": "text/simple/brick1.jpg",
+                    "tex_scale": 0.1,
+                    "map": "text/bump/nm_brick1.jpg",
+                    "map_scale": 0.1
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0, 0, 80],
+					"direction": [0, 0, 1],
+					"texture": "text/simple/brick1.jpg",
+                    "tex_scale": 0.1,
+                    "map": "text/bump/nm_brick1.jpg",
+                    "map_scale": 0.1
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 0,
+					"active": 1,
+					"position": [0, 0, 70],
+					"radius": 10,
+					"texture": "text/simple/brick1.jpg",
+					"tex_scale": 1,
+					"map": "text/bump/nm_brick1.jpg",
+                    "map_scale": 1
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,0,-25],
+					"direction": [0,0,1]
+				}
+			]
+		},
+		{
+			"color": [0,1,0],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [25,0,0],
+					"direction": [1,0,0],
+					"texture": "text/simple/brick1.jpg",
+                    "tex_scale": 0.1,
+                    "map": "text/bump/nm_brick1.jpg",
+                    "map_scale": 0.1
+				}
+			]
+		},
+		{
+			"color": [1,0,0],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [-25,0,0],
+					"direction": [1,0,0],
+					"texture": "text/simple/brick1.jpg",
+                    "tex_scale": 0.1,
+                    "map": "text/bump/nm_brick1.jpg",
+                    "map_scale": 0.1
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,25,0],
+					"direction": [0,1,0]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"light":5,
+			"objects": [
+				{
+					"type": 4,
+					"active": 1,
+					"position": [0, 24, 50],
+					"direction": [0, -1, 0],
+					"radius": 25
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 4,
+					"active": 0,
+					"position": [0, 23.9, 50],
+					"direction": [0, -1, 0],
+					"radius": 25
+				}
+			]
+		}
+	]
+}

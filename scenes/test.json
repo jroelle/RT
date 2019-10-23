@@ -1,0 +1,24 @@
+{
+	"camera": {
+		"position": [0,0,0],
+		"rotation": [0,0,0]
+	},
+	"models": [
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"light": 3,
+			"objects": [
+				{
+					"type": 0,
+					"active": 1,
+					"position": [0, 0, 10],
+					"direction": [0, -1, 0],
+					"radius": 3
+				}
+			]
+		}
+	]
+}

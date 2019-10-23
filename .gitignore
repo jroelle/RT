@@ -1,0 +1,14 @@
+.DS_Store
+*.out
+*.dSYM
+*.o
+*.ppm
+.vscode
+_OLD
+_OLD.zip
+_lbradama
+_lbradama.zip
+server
+client
+norminette
+*.c.swp

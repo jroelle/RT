@@ -1,0 +1,148 @@
+{
+    "camera":
+    {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0]
+    },
+    "models": [
+	{
+		"rotation": [0, 0, 0],
+		"objects": [
+			{
+				"type": 0,
+				"position": [-5, 0, 20],
+				"rotation": [180, 0, 0],
+				"radius": 2,
+				"texture": "text/simple/earth.bmp"
+            },
+            {
+                "type": 2,
+                "position": [0, 0, 20],
+                "angle": 30,
+                "direction": [0, 1, 0],
+				"texture": "text/simple/wood.bmp",
+				"tex_dx": -50
+            },
+            {
+                "type": 3,
+                "position": [5, 0, 20],
+                "radius": 2,
+                "direction": [0, 1, 0],
+				"texture": "text/simple/homer.jpeg",
+				"tex_dx": -70,
+				"tex_dy": 130
+            }
+		]
+	},
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, -5, 0],
+                    "direction": [0, 1, 0],
+					"texture": "text/simple/wood_1.bmp",
+					"tex_scale": 5
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, 0, 30],
+                    "direction": [0, 0, 1],
+					"texture": "text/simple/background.jpg",
+					"tex_scale": 10
+                }
+            ]
+        },
+        {
+            "color": [0, 1 ,0],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [10, 0, 0],
+                    "direction": [1, 0, 0],
+					"texture": "text/simple/background.jpg",
+					"tex_scale": 10
+                }
+            ]
+        },
+        {
+            "color": [1, 0 , 0],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [-10, 0, 0],
+                    "direction": [1, 0, 0],
+					"texture": "text/simple/background.jpg",
+					"tex_scale": 10
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, 5, 0],
+                    "direction": [0, 1, 0],
+					"texture": "text/simple/wood_1.bmp",
+					"tex_scale": 5
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "light": 10,
+            "objects": [
+                {
+                    "type": 4,
+                    "active": 1,
+                    "position": [0, 4.9, 15],
+                    "direction": [0, -1, 0],
+                    "radius": 3
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, 0, -30],
+                    "direction": [0, 0, 1]
+                }
+            ]
+        }
+    ]
+}

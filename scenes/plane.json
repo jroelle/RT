@@ -1,0 +1,39 @@
+{
+    "camera":
+    {
+        "position": [0, 5, -10],
+        "rotation": [0, 0, 0]
+    },
+    "models": [
+        {
+            "color": [0, 1, 1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+					"position": [0, 1, 0],
+					"direction": [0, 1, 0]
+                }
+            ]
+		},
+		{
+			"color": [1, 1, 1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"light": 7,
+            "objects": [
+                {
+                    "type": 4,
+                    "active": 1,
+					"position": [0, 10, 10],
+					"direction": [0, 1, 0],
+					"radius": 20
+                }
+            ]
+		}
+	]
+}

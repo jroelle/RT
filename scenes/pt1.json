@@ -1,0 +1,209 @@
+{
+	"camera": {
+		"position": [0,0,0.1],
+		"rotation": [0,0,0]
+	},
+	"models": [
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,-250,0],
+					"direction": [0,1,0]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,0,1000],
+					"direction": [0,0,1]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,0,0],
+					"direction": [0,0,1]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,0,0],
+					"direction": [0,0,1]
+				}
+			]
+		},
+		{
+			"color": [0.4,0.3,0.8],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [250,0,0],
+					"direction": [1,0,0]
+				}
+			]
+		},
+		{
+			"color": [0.8,0.3,0.2],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [-250,0,0],
+					"direction": [1,0,0]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0,
+			"reflective": 0,
+			"refractive_index": 1,
+			"objects": [
+				{
+					"type": 1,
+					"active": 1,
+					"position": [0,250,0],
+					"direction": [0,1,0]
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 0.3,
+			"reflective": 0.5,
+			"refractive_index": 1,
+			"position": [-50,-150,500],
+			"rotation": [0, 0, 90],
+			"objects": [
+				{
+					"type": 0,
+					"active": 1,
+					"position": [-30,0,0],
+					"radius": 100,
+					"transparency": "text/trans/steel1.jpg",
+					"transparency_dx": 90,
+					"transparency_dy": 20,
+					"transparency_scale": 3
+				},
+				{
+					"type": 1,
+					"active": 0,
+					"position": [0, 0, 0],
+					"direction": [-0.3, -0.8, 0.3],
+					"boolean": -1
+				},
+				{
+					"type": 1,
+					"active": 0,
+					"position": [0, 0, 0],
+					"direction": [-1, 0, 0],
+					"boolean": -1
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 1,
+			"reflective": 1,
+			"refractive_index": 1.5,
+			"objects": [
+				{
+					"type": 0,
+					"active": 1,
+					"position": [150,-150,600],
+					"radius": 100
+				},
+				{
+					"type": 1,
+					"active": 0,
+					"position": [50, -150, 600],
+					"direction": [-1, 0, 0],
+					"boolean": -1
+				}
+			]
+		},
+		{
+			"color": [1,1,1],
+			"specular": 1,
+			"reflective": 1,
+			"refractive_index": 1,
+			"light":5,
+			"position": [0, 240, 700],
+			"objects": [
+				{
+					"type": 4,
+					"active": 0,
+					"position": [0, -1, 0],
+					"direction": [0, -1, 0],
+					"radius": 100
+				},
+				{
+					"type": 4,
+					"active": 0,
+					"position": [0, 0, 0],
+					"direction": [0, -1, 0],
+					"radius": 101
+				}
+			]
+		},
+		{
+			"color": [1, 1, 1],
+			"position": [0, 0, 800],
+			"objects": [
+				{
+					"type": 1,
+					"direction": [0, 0, -1],
+					"-transparency": "text/trans/chupa chups.jpg",
+					"-transparency_scale": 0.4,
+					"-transparency_dx": 0
+				}
+			]
+		},
+		{
+			"color": [1, 1, 1],
+			"position": [0, 150, 700],
+			"light": 2,
+			"objects":[
+				{
+					"type": 0,
+					"radius": 50
+				}
+			]
+		}
+	]
+}

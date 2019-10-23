@@ -1,0 +1,204 @@
+{
+    "camera":
+    {
+        "position": [0, 0, 0],
+		"rotation": [0, 0, 0]
+    },
+    "models": [
+        {
+            "color": [1, 1 ,1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [0, -10, 0],
+                    "direction": [0, 1, 0]
+                }
+            ]
+        },
+        {
+            "color": [0, 1 ,0],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [15, 0, 0],
+                    "direction": [1, 0, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 0 , 0],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [-15, 0, 0],
+                    "direction": [1, 0, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [0, 10, 0],
+                    "direction": [0, 1, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [0, 0, 40],
+                    "direction": [0, 0, 1]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "light": 2,
+            "objects": [
+                {
+                    "type": 4,
+                    "active": 1,
+                    "position": [0, 9.99, 20],
+                    "direction": [0, -1, 0],
+                    "radius": 3
+                }
+            ]
+		},
+		{
+			"position": [-7, 4, 26],
+			"specular": 0.1,
+			"reflective": 0.3,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [-2.3, 4, 26],
+			"specular": 0.3,
+			"reflective": 0.3,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [2.3, 4, 26],
+			"specular": 0.7,
+			"reflective": 0.3,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [7, 4, 26],
+			"specular": 1,
+			"reflective": 0.3,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [-7, -1, 23],
+			"specular": 0.1,
+			"reflective": 0.6,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [-2.3, -1, 23],
+			"specular": 0.3,
+			"reflective": 0.6,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [2.3, -1, 23],
+			"specular": 0.7,
+			"reflective": 0.6,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [7, -1, 23],
+			"specular": 1,
+			"reflective": 0.6,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [-7, -6, 20],
+			"specular": 0.1,
+			"reflective": 1,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [-2.3, -6, 20],
+			"specular": 0.3,
+			"reflective": 1,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [2.3, -6, 20],
+			"specular": 0.7,
+			"reflective": 1,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		},
+		{
+			"position": [7, -6, 20],
+			"specular": 1,
+			"reflective": 1,
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				}
+			]
+		}
+    ]
+}

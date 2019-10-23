@@ -1,0 +1,203 @@
+{
+    "camera":
+    {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0]
+    },
+    "models": [
+        {
+            "color": [1, 1, 1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": -1,
+                    "active": 1,
+                    "position": [-5, 0, 15],
+                    "radius": 3
+                }
+            ]
+        },
+        {
+            "color": [1, 1, 1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 0,
+                    "active": 1,
+                    "position": [3, 0, 13],
+                    "radius": 1,
+                    "texture": "text/simple/brick1.jpg",
+                    "tex_scale": 2,
+                    "map": "text/bump/nm_brick1.jpg",
+                    "map_scale": 2,
+                    "-transparency": "text/trans/tr_map_1.jpg"
+                }
+            ]
+        },
+        {
+            "color": [1, 1, 1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 3,
+                    "active": 1,
+                    "position": [0, 0, 15],
+                    "radius": 2,
+                    "direction": [0, 1, 0],
+                    "texture": "text/simple/brick1.jpg",
+                    "tex_scale": 1,
+                    "map": "text/bump/nm_brick1.jpg",
+                    "map_scale": 1,
+                    "-transparency": "text/trans/tr_map_1.jpg"
+                }
+            ]
+        },
+        {
+            "color": [1, 1, 1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 2,
+                    "active": 1,
+                    "position": [5, 0, 15],
+                    "angle": 30,
+                    "direction": [0, 1,0],
+                    "texture": "text/simple/brick1.jpg",
+                    "tex_scale": 1,
+                    "map": "text/bump/nm_brick1.jpg",
+                    "map_scale": 1,
+                    "-transparency": "text/trans/tr_map_1.jpg"
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, -5, 0],
+                    "direction": [0, 1, 0],
+                    "-procedural_texture": 1,
+                    "texture": "text/simple/brick1.jpg",
+                    "tex_scale": 0.1,
+                    "map": "text/bump/nm_brick1.jpg",
+                    "map_scale": 0.1,
+                    "-transparency": "text/trans/tr_map_1.jpg"
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, 0, 30],
+                    "direction": [0, 0, 1],
+                    "-procedural_texture": 2,
+                    "tex_scale": 5,
+                    "-map": "text/bump/circles.jpg",
+                    "-map_scale": 10
+                }
+            ]
+        },
+        {
+            "color": [0, 1, 0],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [10, 0, 0],
+                    "direction": [1, 0, 0],
+                    "-texture": "text/simple/154.jpg",
+                    "tex_scale": 5,
+                    "-map": "text/bump/circles.jpg",
+                    "-map_scale": 10
+                }
+            ]
+        },
+        {
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [-10, 0, 0],
+                    "direction": [1, 0, 0],
+                    "-texture": "text/simple/154.jpg",
+                    "tex_scale": 5,
+                    "-map": "text/bump/circles.jpg",
+                    "-map_scale": 10
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, 5, 0],
+                    "direction": [0, 1, 0],
+                    "-map": "text/bump/circles.jpg",
+                    "-map_scale": 10
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "light": 5,
+            "objects": [
+                {
+                    "type": 4,
+                    "active": 1,
+                    "position": [0, 4.9, 10],
+                    "direction": [0, -1, 0],
+                    "radius": 5
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "specular": 0,
+            "reflective": 0,
+            "refractive_index": 1,
+            "objects": [
+                {
+                    "type": 1,
+                    "active": 1,
+                    "position": [0, 0, -0.1],
+                    "direction": [0, 0, 1],
+                    "-map": "text/bump/circles.jpg",
+                    "-map_scale": 10
+                }
+            ]
+        }
+    ]
+}

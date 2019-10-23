@@ -1,0 +1,116 @@
+{
+    "camera":
+    {
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0],
+        "ambience": [1, 0.6, 0.6]
+    },
+    "models": [
+        {
+            "color": [1, 1 ,1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [0, -10, 0],
+                    "direction": [0, 1, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1, 1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [10, 0, 0],
+                    "direction": [1, 0, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1, 1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [-10, 0, 0],
+                    "direction": [1, 0, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [0, 10, 0],
+                    "direction": [0, 1, 0]
+                }
+            ]
+        },
+        {
+            "color": [1, 1, 0],
+            "objects": [
+                {
+                    "type": 1,
+                    "position": [0, 0, 40],
+                    "direction": [0, 0, 1]
+                }
+            ]
+        },
+        {
+            "color": [1, 1 ,1],
+            "light": 2,
+            "objects": [
+                {
+                    "type": 4,
+                    "active": 1,
+                    "position": [0, 9.99, 30],
+                    "direction": [0, -1, 0],
+                    "radius": 5
+                }
+            ]
+		},
+		{
+			"position": [-5, 0, 15],
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				},
+				{
+					"type": 1,
+					"direction": [1, 0, 0],
+					"boolean": -1
+                }
+			]
+		},
+		{
+			"position": [0, 0, 15],
+			"rotation": [50, 15, -5],
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				},
+				{
+					"type": 1,
+					"direction": [0, 0, 1],
+					"boolean": -1
+				}
+			]
+		},
+		{
+			"position": [5, 0, 15],
+			"objects": [
+				{
+					"type": 0,
+					"radius": 2
+				},
+				{
+					"type": 1,
+					"direction": [0, -1, 0],
+					"boolean": -1
+				}
+			]
+        }
+    ]
+}

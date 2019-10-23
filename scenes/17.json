@@ -1,0 +1,139 @@
+{
+    "camera":
+    {
+        "position": [0, 2, 27],
+		"rotation": [10, 60, 0]
+    },
+    "models": [
+		{
+			"objects": [
+				{
+					"type": 0,
+					"position": [0, 0, 30],
+					"radius": 35,
+					"texture": "text/simple/galaxy.png"
+				}
+			]
+		},
+        {
+            "color": [1, 1, 1],
+            "light": 20,
+            "objects": [
+                {
+                    "type": 0,
+                    "active": 1,
+                    "position": [47, 0, 30],
+					"radius": 30,
+					"texture": "text/simple/sun.jpg"
+                }
+            ]
+		},
+		{
+			"objects": [
+				{
+					"type": 0,
+					"position": [11, 0, 30],
+					"radius": 0.5,
+					"texture": "text/simple/mercury.jpg"
+				}
+			]
+		},
+		{
+			"objects": [
+				{
+					"type": 0,
+					"position": [7.5, 0, 30],
+					"radius": 1,
+					"texture": "text/simple/venus.jpg"
+				}
+			]
+		},
+		{
+			"objects": [
+				{
+					"type": 0,
+					"position": [3, 0, 30],
+					"radius": 1,
+					"texture": "text/simple/earth.bmp",
+					"tex_dx": 50
+				}
+			]
+		},
+		{
+			"objects": [
+				{
+					"type": 0,
+					"position": [4.5, 1, 30],
+					"radius": 0.2,
+					"texture": "text/simple/moon.png"
+				}
+			]
+		},
+		{
+			"objects": [
+				{
+					"type": 0,
+					"position": [0, 0, 30],
+					"radius": 0.5,
+					"texture": "text/simple/mars.png"
+				}
+			]
+		},
+		{
+			"objects": [
+				{
+					"type": 0,
+					"position": [-4, 0, 30],
+					"radius": 2,
+					"texture": "text/simple/jupiter.jpg"
+				}
+			]
+		},
+		{
+			"objects": [
+				{
+					"type": 0,
+					"position": [-9, 0, 30],
+					"radius": 1.5,
+					"texture": "text/simple/saturn.jpg"
+				}
+			]
+		},
+		{
+			"color": [0.8, 0.6, 0.3],
+			"position": [-9, 0, 30],
+			"objects": [
+				{
+					"type": 4,
+					"direction": [0.4, 1, -0.2],
+					"radius": 2.5
+				},
+				{
+					"type": 0,
+					"radius": 1.7,
+					"boolean": -1
+				}
+			]
+		},
+		{
+			"objects": [
+				{
+					"type": 0,
+					"position": [-13, 0, 30],
+					"radius": 0.8,
+					"texture": "text/simple/uranus.jpg"
+				}
+			]
+		},
+		{
+			"objects": [
+				{
+					"type": 0,
+					"position": [-16, 0, 30],
+					"radius": 0.7,
+					"texture": "text/simple/neptune.jpg"
+				}
+			]
+		}
+    ]
+}
